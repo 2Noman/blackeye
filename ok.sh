@@ -389,7 +389,7 @@ echo ""
 echo ""
 
 checkfound
-}
+
 
 checkfound() {
 

@@ -43,7 +43,7 @@ if [[ $option == 1 ]]; then
 server="instagram"
 start
 
-elif [[ $option == 2 ]]; then
+if [[ $option == 2 ]]; then
 server="facebook"
 start
 elif [[ $option == 3 ]]; then

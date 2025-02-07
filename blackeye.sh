@@ -39,11 +39,11 @@ read -p $'\n\e[1;92m\e[0m\e[1;77m\e[0m\e[1;92m ┌─[ Choose an option:]─[~]
 
 
 
-if [[ $option == 1 ]]; then
+elif [[ $option == 1 ]]; then
 server="instagram"
 start
 
-if [[ $option == 2 ]]; then
+elif [[ $option == 2 ]]; then
 server="facebook"
 start
 elif [[ $option == 3 ]]; then
